@@ -1,0 +1,66 @@
+header{
+    background-color: rgb(255, 242, 204);
+}
+header>img{
+   display: block ;
+    margin: auto;
+   max-width: 100px;
+   max-height: 100px;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+header>h3{
+    text-align: center;
+}
+body{
+    background-color: rgb(215, 227, 191);
+}
+.me{
+    width: 355px;
+    height: auto;
+    display: block;
+    margin: auto;
+    padding: .5rem;
+}
+section{
+    background-color: rgb(255, 242, 202);
+}
+section>h2{
+    text-align: center;
+    padding: .5rem;
+}
+h2{
+    text-align: center;
+}
+.animals,.tree,.onion,.client{
+    width: 385px;
+    height: auto;
+    padding: 1rem;
+}
+@media (min-width:869px){
+    .animals, .tree, .onion, .client{
+        width: 800px;
+        height: auto;
+    }
+    .me{
+        width: 750px;
+        height: auto;
+    }
+}
+@media(min-width:1699px){
+    .me{
+        width: 700px;
+        height: auto;
+    }
+    .animals, .tree, .onion, .client{
+        width: 1550px;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+    section{margin: 3rem;}
+}
